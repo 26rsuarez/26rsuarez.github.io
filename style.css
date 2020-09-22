@@ -1,8 +1,10 @@
+/* images float left by default and have a margin of 20 px */
 img {
     float: left;
     margin-bottom: 20px;
 }
 
+/* about me img also has a margin to the right */
 .aboutmeimg {
     margin-right: 20px;
 }
