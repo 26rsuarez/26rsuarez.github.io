@@ -4,7 +4,15 @@ img {
     margin-bottom: 20px;
 }
 
+
 /* about me img also has a margin to the right */
 .aboutmeimg {
     margin-right: 20px;
+}
+
+#project-image {
+    border-radius: 50px;
+    background: #504c49;
+    box-shadow: inset 20px 20px 60px #44413e, 
+                inset -20px -20px 60px #5c5754;
 }
