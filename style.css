@@ -1,3 +1,7 @@
+body {
+    background: url(./Assets/mountains-1412683.svg) no-repeat;
+    background-size: cover;
+}
 /* images float left by default and have a margin of 20 px */
 img {
     float: left;
@@ -11,5 +15,15 @@ img {
 }
 
 #name {
-    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#about-me {
+    background: rgb(60, 60, 60);
+    background: rgba(60, 60, 60, 0.6);
+}
+
+#about-me p {
+    color:white;
 }

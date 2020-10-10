@@ -12,7 +12,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9e2b626772.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -34,27 +34,34 @@
           </li>
           
         </ul>
-        <form class="form-inline my-2 my-lg-0"> <!-- leaving search part in case i need it later -->
-          <input class="form-control mr-sm-2" type="search" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+
+        <span id="name" class="navbar-text mx-auto">Raunel Suarez-Magana</span>
+
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/raunel-suarez-magana"><i class="fab fa-linkedin 2x"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/26rsuarez"><i class="fab fa-github 2x"></i></a> 
+          </li>
+        </ul>
       </div>
     </nav>
-    <h1 id="name">Raunel Suarez-Magana</h1>
+    
     <hr> 
     <div class="container"> <!-- one container for the content -->
       <div class="row">
         <div class="col-3">
           <img src="./Assets/headshot1.jpg" alt="Headshot" class="img-fluid img-thumbnail aboutmeimg"> <!-- placeholder image -->
         </div>
-        <div class="col-9">
+        <div class="col-9" id="about-me">
           
 
           <p class="text-wrap">
             Hello! Ever since I was young, Math has been one of my passions.
             After graduating I worked as a math teacher for 3.5 years. I enjoyed teaching and inspiring other students to enjoy math. Being a teacher has its perks, but I wanted to continue learning and trying something new. 
           </p>
-          <p class="text-wrap">
+          <p class="text-wrap" id="lower-text">
             I graduated from University of Texas at Austin with a degree in Mathematics. In college, I took a class on the basics of python. During quarantine I spent more time learning about data science. The ways python was used to solve problems fascinated me. I followed the python rabbit hole, which led me to creating websites using 
             django and flask. I wanted to continue learning about front end and back end programming so I signed up for the UT coding bootcamp.
             I am currently learning how to be a fullstack programmer. I enjoy learning new languages and how math is incorporated into each one.
@@ -67,10 +74,10 @@
               Living in Austin, Tx
           </p>
           <p>
-            <a href="https://www.linkedin.com/in/raunel-suarez-magana">linkedin</a> 
+             
           </p>
           <p>
-            <a href="https://github.com/26rsuarez">github</a> 
+            
           </p>
   
         </div>
