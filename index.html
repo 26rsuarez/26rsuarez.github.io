@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- made the navbar dark -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark"> <!-- made the navbar dark -->
       
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,22 +27,26 @@
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           
           <li class="nav-item active">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="#portfolioheading">Portfolio</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="./Assets/Suarez-raunel-resume.pdf" download>Resume</a>
           </li>
+          
           
         </ul>
 
         <span id="name" class="navbar-text mx-auto">Raunel Suarez-Magana</span>
 
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/in/raunel-suarez-magana"><i class="fab fa-linkedin 2x"></i></a>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.linkedin.com/in/raunel-suarez-magana"><i class="fab fa-linkedin 3x"></i></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/26rsuarez"><i class="fab fa-github 2x"></i></a> 
+          <li class="nav-item active">
+            <a class="nav-link" href="https://github.com/26rsuarez"><i class="fab fa-github 3x"></i></a> 
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="mailto:raunel.magana@gmail.com"><i class="fas fa-envelope"></i></a>
           </li>
         </ul>
       </div>
@@ -51,38 +55,81 @@
     <hr> 
     <div class="container"> <!-- one container for the content -->
       <div class="row">
-        <div class="col-3">
+        <div class="col-md-3">
           <img src="./Assets/headshot1.jpg" alt="Headshot" class="img-fluid img-thumbnail aboutmeimg"> <!-- placeholder image -->
         </div>
-        <div class="col-9" id="about-me">
+        <div class="col-md-9" id="about-me">
           
 
           <p class="text-wrap">
-            Hello! Ever since I was young, Math has been one of my passions.
-            After graduating I worked as a math teacher for 3.5 years. I enjoyed teaching and inspiring other students to enjoy math. Being a teacher has its perks, but I wanted to continue learning and trying something new. 
+            Ever since I was young, Math has been one of my passions. I persued that passion and graduated from University of Texas at Austin with a degree in Mathematics. 
+            After graduating, I worked as a math teacher for 3.5 years. I enjoyed teaching, but I wanted to continue learning something new. 
           </p>
           <p class="text-wrap" id="lower-text">
-            I graduated from University of Texas at Austin with a degree in Mathematics. In college, I took a class on the basics of python. During quarantine I spent more time learning about data science. The ways python was used to solve problems fascinated me. I followed the python rabbit hole, which led me to creating websites using 
-            django and flask. I wanted to continue learning about front end and back end programming so I signed up for the UT coding bootcamp.
-            I am currently learning how to be a fullstack programmer. I enjoy learning new languages and how math is incorporated into each one.
+            I am currently learning how to be a fullstack programmer. I enjoy learning new languages and seeing how math can be incorporated into each one.
             I hope to transition into a career in this field soon.
           </p>
-          <p id="email">
-            raunel.magana@gmail.com
+          <p class="text-wrap" id="lower-text">
+            I would love to connect with you. Shoot me an email or add me on linkedin! 
           </p>
+          
           <p id="location">
-              Living in Austin, Tx
+              raunel.magana@gmail.com
           </p>
-          <p>
-             
-          </p>
-          <p>
-            
-          </p>
-  
         </div>
       </div>
       
     </div>
+
+    <div class="container" id="portfolio">
+      <h1 id="portfolioheading">Portfolio</h1>
+      <div class="row">
+
+        <div class="card-deck">
+          <div class="card">
+            <a href="https://github.com/26rsuarez/photophriend">
+              <img src="./Assets/PhotoPhriend.gif" id="project-image" class="rounded card-img-top" alt="Photofriend" >
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Photofriend</h5>
+              <p class="card-text">A web application that gives photographers important information and inspiration for future shoots.
+              </p>
+              <a class="badge badge-success">Javascript</a>
+              <a class="badge badge-success">OpenWeatherMap API</a>
+              <a class="badge badge-success">Pixabay API</a>
+              <a class="badge badge-success">Mapbox API</a>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://github.com/26rsuarez/5-Work-Day-Scheduler">
+              <img src="./Assets/YouCube.gif" id="project-image" alt="YouCube" class="rounded card-img-top" >
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Satisfying Simulations</h5>
+              <p class="card-text">An application that displays animations created using threeJs. Users can create an account.
+                The animations can be altered and their paramaters are saved for when the user returns.</p>
+              <a class="badge badge-success">Javascript</a>
+              <a class="badge badge-success">ThreeJs</a>
+              <a class="badge badge-success">Youtube API</a>
+              <a class="badge badge-success">Express/Sequelize</a>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://github.com/26rsuarez/5-Work-Day-Scheduler">
+              <img src="./Assets/WorkDayScheduler.gif" id="project-image" alt="WorkDayScheduler" class="rounded card-img-top" >
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Work Day Scheduler</h5>
+              <p class="card-text">A web application where users can input, save, and delete tasks.</p>
+              <a class="badge badge-success">Javascript</a>
+              <a class="badge badge-success">Jquery</a>
+            </div>
+          </div>
+        </div>
+        
+        </div> 
+      </div>
+    </div>
+
 </body>
 </html>

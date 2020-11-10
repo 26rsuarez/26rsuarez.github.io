@@ -5,6 +5,7 @@ body {
 /* images float left by default and have a margin of 20 px */
 img {
     float: left;
+    max-width: 100%;
     margin-bottom: 20px;
 }
 
@@ -21,9 +22,21 @@ img {
 
 #about-me {
     background: rgb(60, 60, 60);
-    background: rgba(60, 60, 60, 0.6);
+    background: rgba(60, 60, 60, 0.8);
+    border: 5px solid white;
+    border-radius: .25rem;
+    margin-bottom: 20px;
 }
 
 #about-me p {
     color:white;
+}
+
+#portfolio {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+label {
+    color: white;
 }
