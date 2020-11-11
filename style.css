@@ -1,12 +1,17 @@
 body {
-    background: url(./Assets/mountains-1412683.svg) no-repeat;
-    background-size: cover;
+    /* background: url(./Assets/mountains-1412683.svg) no-repeat;
+    background-size: cover; */
+    background-color: #fbddd5;
 }
 /* images float left by default and have a margin of 20 px */
 img {
     float: left;
     max-width: 100%;
     margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 20px;
 }
 
 
@@ -33,7 +38,7 @@ img {
 }
 
 #portfolio {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 
