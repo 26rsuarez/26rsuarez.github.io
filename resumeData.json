@@ -31,7 +31,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here are some of the programming languages I know. I'm always eager to learn and improve.",
+    "skillmessage":"Here are some of the programming languages I know. I still have a lot to learn, but I'm excited about improving!",
     "education":[
       {
         "school":"Coding Bootcamp at UT Austin",
@@ -112,6 +112,18 @@
         "category":"In Progress",
         "image":"default-image.jpg",
         "url":""
+      },
+      {
+        "title":"Workout Tracker",
+        "category":"An app that tracks and saves workouts",
+        "image":"workouttracker.PNG",
+        "url":"https://workouttracker-rsm.herokuapp.com/"
+      },
+      {
+        "title":"Work Day Scheduler",
+        "category":"Plan your day and save your tasks in the local storage",
+        "image":"workday.PNG",
+        "url":"https://26rsuarez.github.io/5-Work-Day-Scheduler/"
       }
     ]
   }
