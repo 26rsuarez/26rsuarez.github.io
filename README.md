@@ -1,11 +1,29 @@
-# 26rsuarez.github.io
+# React Nice Resume     
 
-This page is used to create a portfolio for myself. It is deployed in the same web address as the name of this repository.
+### DEMO is [here](https://nordicgiant2.github.io/react-nice-resume-page/index.html)
 
-I began by creating three different html files: index.html, portfolio.html, and contact.html.
+![img](https://github.com/nordicgiant2/react-nice-resume/blob/master/public/images/img.jpg?raw=true)
 
-Each page has a different purpose. The index page serves as a home screen, where I have added an about me section. In the future I would like to add links to social media and pictures of myself.
+# About [`particles-bg`](https://github.com/lindelof/particles-bg) library
+#### This project uses the react particle background component library [https://github.com/lindelof/particles-bg](https://github.com/lindelof/particles-bg). It's very simple. Anyone can be a Musketeer with it.
 
-The portfolio page has images that show the projects I have completed. Currently the images are just placeholders, but I will add more images as I complete my projects.
+![img](https://github.com/lindelof/particles-bg/raw/master/image/03.jpg?raw=true)
 
-The contact page is meant as a way for someone to contact me by leaving their email, name, and message. The form is just a template, and will be updated to store information later.
+## Description
+This project forks from [https://github.com/tbakerx/react-resume-template](https://github.com/tbakerx/react-resume-template), I made some modifications and adjustments, thanks to the [author](https://github.com/tbakerx).
+
+![img](https://github.com/nordicgiant2/react-nice-resume/blob/master/public/images/img2.jpg?raw=true)
+
+## Run Project
+### 1. Clone the project
+
+### 2. Run the project
+```shell
+npm i
+npm start
+```
+
+### 3. BUild
+```shell
+npm run build
+```
