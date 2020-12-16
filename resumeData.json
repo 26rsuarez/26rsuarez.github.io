@@ -102,28 +102,16 @@
         "url":"https://chillcubes.herokuapp.com"
       },
       {
-        "title":"React Employee Directory",
-        "category":"A react app that displays an employee's directory. Users can sort and filter the directory.",
-        "image":"directory.PNG",
-        "url":"https://reactemployeedirectory-rsm.herokuapp.com/"
+        "title":"Google Book Search",
+        "category":"A react app that stores books searched by users through the google books api.",
+        "image":"booksearch.png",
+        "url":"https://booksearch-rsm.herokuapp.com/"
       },
       {
         "title":"Junai Menu",
         "category":"In Progress",
-        "image":"default-image.jpg",
-        "url":""
-      },
-      {
-        "title":"Workout Tracker",
-        "category":"An app that tracks and saves workouts",
-        "image":"workouttracker.PNG",
-        "url":"https://workouttracker-rsm.herokuapp.com/"
-      },
-      {
-        "title":"Work Day Scheduler",
-        "category":"Plan your day and save your tasks in the local storage",
-        "image":"workday.PNG",
-        "url":"https://26rsuarez.github.io/5-Work-Day-Scheduler/"
+        "image":"sushijunai.png",
+        "url":"https://sushi-junai.herokuapp.com"
       }
     ]
   }
