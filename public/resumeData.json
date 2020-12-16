@@ -31,7 +31,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here are some of the programming languages I know. I'm always eager to learn and improve.",
+    "skillmessage":"Here are some of the programming languages I know. I still have a lot to learn, but I'm excited about improving!",
     "education":[
       {
         "school":"Coding Bootcamp at UT Austin",
@@ -102,16 +102,16 @@
         "url":"https://chillcubes.herokuapp.com"
       },
       {
-        "title":"React Employee Directory",
-        "category":"A react app that displays an employee's directory. Users can sort and filter the directory.",
-        "image":"directory.PNG",
-        "url":"https://reactemployeedirectory-rsm.herokuapp.com/"
+        "title":"Google Book Search",
+        "category":"A react app that stores books searched by users through the google books api.",
+        "image":"booksearch.png",
+        "url":"https://booksearch-rsm.herokuapp.com/"
       },
       {
         "title":"Junai Menu",
         "category":"In Progress",
-        "image":"default-image.jpg",
-        "url":""
+        "image":"sushijunai.png",
+        "url":"https://sushi-junai.herokuapp.com"
       }
     ]
   }
