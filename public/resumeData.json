@@ -1,9 +1,9 @@
 {
   "main": {
     "name":"Raunel Suarez-Magana",
-    "description":"Full Stack Web Developer",
+    "description":"Web Developer",
     "image":"headshot1.jpg",
-    "bio":"Full Stack Web developer, graduated from the University of Texas at Austin with a degree in Mathematics. Worked in education for four years. Recently earned a certificate from the UT coding bootcamp. Passionate about how software development can improve education and users' lives.",
+    "bio":"Full Stack Web Developer, recently earned a certificate from the UT coding bootcamp. Graduated from the University of Texas at Austin with a bachelor's degree in Mathematics. Worked in education for four years. I'm excited to learn more about software development, and eager to work where I can improve education and users' lives.",
     "contactmessage":"I would love to connect with you. Shoot me an email or add me on linkedin!",
     "email": "raunel.magana@gmail.com",
     "phone": "254-229-8802",
@@ -35,7 +35,7 @@
     "education":[
       {
         "school":"Coding Bootcamp at UT Austin",
-        "degree":"Certificate in Computer Scince ",
+        "degree":"Certificate in Computer Science ",
         "graduated":"December 2020",
         "description":"Learned front-end and back-end technologies."
       },
