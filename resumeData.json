@@ -16,7 +16,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://26rsuarez.github.io",
-    "resume":"suarez_raunel_CV.pdf",
+    "resume":"magana_raunel_resume.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -90,6 +90,12 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Junai Menu",
+        "category":"A restaurant website with an interactive menu and real life application",
+        "image":"sushi-junai.png",
+        "url":"https://sushi-junai.app"
+      },
+      {
         "title":"PhotoPhriend",
         "category":"A web application that gives photographers important information and inspiration for future shoots.",
         "image":"photophriend.PNG",
@@ -106,12 +112,6 @@
         "category":"A react app that stores books searched by users through the google books api.",
         "image":"booksearch.png",
         "url":"https://booksearch-rsm.herokuapp.com/"
-      },
-      {
-        "title":"Junai Menu",
-        "category":"A restaurant website with an interactive menu and real life application",
-        "image":"sushijunai.png",
-        "url":"https://sushi-junai.herokuapp.com"
       }
     ]
   }
