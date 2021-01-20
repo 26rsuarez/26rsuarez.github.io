@@ -1,7 +1,7 @@
 {
   "name": "personalportfolio",
   "version": "0.1.0",
-  "homepage": "https://26rsuarez.github.io",
+  "homepage": "https://26rsuarez.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "anix": "^0.3.3",
